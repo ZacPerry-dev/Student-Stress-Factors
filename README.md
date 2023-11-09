@@ -10,3 +10,6 @@ https://www.kaggle.com/datasets/rxnach/student-stress-factors-a-comprehensive-an
 4) Depression : range 0 to 27, Measure: Patient Health Questionnaire (PHQ-9)
 5) Other features mostly range from 0 to 5 considering 0,1 to be low, 2,3 to be mid, and 4,5 to be high.
 However, these other features could also be given scientific measures. eg. blood pressure.
+
+Age Groups: 15-24 (High school through college)
+City: Dharan, Nepal
