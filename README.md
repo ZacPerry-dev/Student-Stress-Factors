@@ -11,5 +11,5 @@ https://www.kaggle.com/datasets/rxnach/student-stress-factors-a-comprehensive-an
 5) Other features mostly range from 0 to 5 considering 0,1 to be low, 2,3 to be mid, and 4,5 to be high.
 However, these other features could also be given scientific measures. eg. blood pressure.
 
-Age Groups: 15-24 (High school through college)
+Age Groups: 15-24 (High school through college), 1,100 students
 City: Dharan, Nepal
