@@ -17,15 +17,13 @@ https://www.kaggle.com/datasets/rxnach/student-stress-factors-a-comprehensive-an
 Age Groups: 15-24 (High school through college), 1,100 students
 City: Dharan, Nepal
 
-## Potential Questions
+## Research Questions
 
 1. Can predict the stress level of a new student based on the similarity of their stress factors to those of known students?
-    - Could use KNN for this maybe?
+    - KNN
     - K Fold Cross Validation (hyperparameter tuning)
     - Linear SVC (with feature scaling)
 2. Which factors contribute most significantly to predicting stress levels in students?
-    - heatmap & correlation matrix maybe, random forest & decision trees
+    - heatmap & correlation matrix, random forest & decision trees
 3. Are there any identifiable patterns between specific factors and overall stress experienced?
-    - KNN maybe?
-    - K Fold Cross Validation (hyperparameter tuning)
-    - Linear SVC (with feature scaling)
+    - Answer from Decision trees feature importances
