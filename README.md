@@ -4,7 +4,7 @@ A study of student stress factors using Machine Learning methods.
 
 ## Dataset
 
-https://www.kaggle.com/datasets/rxnach/student-stress-factors-a-comprehensive-analysis
+[Student Stress Factors - A Comprehensive Analysis](https://www.kaggle.com/datasets/rxnach/student-stress-factors-a-comprehensive-analysis)
 
 1. Anxiety : range from 0 to 21, Measure : GAD-7
 2. Self-esteem : range 0 to 30, Measure: Rosenberg Self Esteem Scale
@@ -20,10 +20,12 @@ City: Dharan, Nepal
 ## Research Questions
 
 1. Can we predict the stress level of a new student based on the similarity of their stress factors to those of known students?
-    - KNN
-    - K Fold Cross Validation (hyperparameter tuning)
-    - Linear SVC (with feature scaling)
+    - K-Nearest Neighbors (KNN)
+      - K Fold Cross Validation (`n_neighbors`)
+    - Multi-Layer Perceptron (MLP)
+      - K-fold cross validation (`hidden_layer_sizes`, `learning_rate_init`)
 2. Which factors contribute most significantly to predicting stress levels in students?
-    - heatmap & correlation matrix, random forest & decision trees
-3. Are there any identifiable patterns between specific factors and overall stress experienced?
-    - Answer from Decision trees feature importances
+    - Decision Trees
+      - Depth of Tree (`max_depth`)
+    - Random Forest
+      - Number of trees (`n_estimators`)
