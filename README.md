@@ -1,6 +1,6 @@
-# Student-Stress-Factors-ML-Study
+# Analyzing Student Stress Factors through Machine Learning Techniques
 
-A study of student stress factors using Machine Learning methods.
+Authors: Zachary Perry and Manan Patel
 
 ## Dataset
 
