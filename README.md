@@ -19,7 +19,7 @@ City: Dharan, Nepal
 
 ## Research Questions
 
-1. Can predict the stress level of a new student based on the similarity of their stress factors to those of known students?
+1. Can we predict the stress level of a new student based on the similarity of their stress factors to those of known students?
     - KNN
     - K Fold Cross Validation (hyperparameter tuning)
     - Linear SVC (with feature scaling)
